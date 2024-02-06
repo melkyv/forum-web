@@ -1,7 +1,7 @@
 @extends('admin.layouts.app')
 
 @section('title', "Detalhes da Dúvida {$support->subject}")
-
+<x-alert/>
 @section('content')
 <!-- component -->
 <div class="flex justify-center min-h-screen">
